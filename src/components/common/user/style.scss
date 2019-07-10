@@ -1,0 +1,28 @@
+.user-list {
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: center;
+  max-height: 35vh;
+  height: 30vh;
+}
+
+.btnshow {
+  .v-btn {
+    display: none;
+  }
+
+  &:hover {
+    .v-btn {
+      display: block;
+    }
+  }
+}
+
+.onlyView:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.selected-items {
+  max-height: 80px;
+  overflow-y: auto;
+}

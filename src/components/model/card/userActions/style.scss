@@ -1,0 +1,30 @@
+.userActions {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  overflow: hidden;
+
+  .v-list--two-line .v-list__tile {
+    height: 100%;
+  }
+
+  .v-list__tile .v-list__tile--avatar .theme--light {
+    height: 100%;
+  }
+
+  .v-list__tile--avatar {
+    height: 100%;
+  }
+
+  .v-list__tile__title,
+  .v-list__tile__sub-title {
+    white-space: initial;
+
+    /* overflow: hidden; */
+    text-overflow: initial;
+  }
+}
+
+.dateText {
+  font-size: 13px;
+  color: black;
+}

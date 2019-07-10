@@ -1,0 +1,91 @@
+.icon {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+
+.title-text {
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+
+.modal-header,
+.modal-footer {
+  padding: 15px;
+  display: flex;
+}
+
+.modal-header {
+  border-bottom: 1px solid #eee;
+  color: #fff;
+  justify-content: space-between;
+  background: #419fd9;
+  padding: 20px 24px;
+  position: relative;
+
+  .user-menu {
+    position: absolute;
+    top: 4px;
+    right: 0;
+  }
+}
+
+.modal-footer {
+  border-top: 1px solid #eee;
+  justify-content: flex-end;
+}
+
+.modal-body {
+  position: relative;
+}
+
+.circle {
+  background: white;
+  border: 1px double black;
+  text-align: center;
+  padding-top: 9px;
+  padding-right: 9px;
+  display: flex;
+  border-radius: 50%;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.sub-title1 {
+  color: #fff !important;
+}
+
+.hov {
+  font-weight: bold !important;
+  font-size: 12px !important;
+
+  &:hover {
+    background-color: #f5f5f5 !important;
+  }
+}
+
+.avatar {
+  margin-bottom: 14px;
+
+  i {
+    margin-left: -4px;
+    margin-bottom: -7px;
+    margin-top: -4px;
+  }
+}
+
+.app-version {
+  display: block;
+  color: #888;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 24px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

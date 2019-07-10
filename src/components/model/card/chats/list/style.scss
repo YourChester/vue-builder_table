@@ -1,0 +1,14 @@
+.border {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  height: 100%;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.active {
+  background-color: #1565c0;
+  color: white !important;
+}

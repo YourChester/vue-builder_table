@@ -1,0 +1,44 @@
+.component-fade-enter-active,
+.component-fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.component-fade-enter,
+.component-fade-leave-to {
+  opacity: 0;
+}
+
+.component-fade-in {
+  &-enter-active {
+    transition: opacity 0.3s ease;
+  }
+
+  &-enter,
+  &-leave-to {
+    opacity: 0;
+  }
+}
+
+.container-wrap {
+  max-width: 100% !important;
+}
+
+.file-expansion-panel {
+  .v-expansion-panel__header {
+    padding: 0 !important;
+  }
+}
+
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.v-select.v-input--is-readonly .v-input__append-inner {
+  display: none;
+}
+
+.max-width {
+  width: 100%;
+  max-width: 1200px !important;
+}

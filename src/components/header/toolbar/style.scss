@@ -1,0 +1,12 @@
+.clickable {
+  cursor: pointer;
+
+  &:hover {
+    background-color: #eee;
+  }
+}
+
+.notification-content {
+  max-height: 400px;
+  overflow-y: auto;
+}

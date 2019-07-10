@@ -1,0 +1,29 @@
+.border {
+  border: 1px solid #ccc;
+}
+
+.active {
+  background-color: #0076cd;
+  color: white;
+}
+
+.closePosition {
+  position: absolute;
+  left: 70%;
+  bottom: 55%;
+}
+
+.cont {
+  overflow: hidden;
+  // width: 200px;
+}
+
+.box {
+  white-space: nowrap;
+}
+
+.box div {
+  // width: 90px;
+  display: inline-block;
+  // border: 1px solid black;
+}
