@@ -41,7 +41,7 @@
     "@types/uniqid": "^4.1.3",
     "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-plugin-typescript": "^3.7.0",
-    "@vue/cli-service": "^3.7.0",
+    "@vue/cli-service": "^5.0.8",
     "node-sass": "^4.9.0",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^0.5.1",
